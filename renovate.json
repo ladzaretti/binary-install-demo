@@ -2,5 +2,10 @@
 	"lockFileMaintenance": {
 		"enabled": true,
 		"schedule": ["at any time"]
-	}
+	},
+	"force": {
+   		"constraints": {
+      		"npm": "< 15.0.0"
+    }
+  }
 }
