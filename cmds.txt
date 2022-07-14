@@ -1,0 +1,1 @@
+docker run --env LOG_LEVEL=debug RENOVATE_BINARY_SOURCE=docker -it --rm -v "$PWD\config.js:/usr/src/app/config.js" -v //var/run/docker.sock:/var/run/docker.sock renovate/renovate:latest bash
